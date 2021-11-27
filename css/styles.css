@@ -314,12 +314,11 @@
              padding-top: 38px;
            }
     /* --End Our Skill-- */
-    .contact-us-wrapper{
-     
+    .contact-us-wrapper{     
+      background: var(--bacgraund-color);
       width: 1440px; 
     }
       .contact{         
-        background: var(--bacgraund-color);
         margin: 0 auto;
       }
       .contact-title{
