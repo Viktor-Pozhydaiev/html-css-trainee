@@ -419,10 +419,12 @@ a {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.21;
-    text-transform: uppercase;
     color: var(--contact-color);
     padding-right: 24px;
     padding-left: 10px;
+  }
+  .footer-link1:not(:last-child) {
+    text-transform: uppercase;
   }
   .footer-link2 {
     font-family: var(--secondary-font);
@@ -452,6 +454,18 @@ a {
     display: flex;
     padding-top: 30px;
     padding-bottom: 20px;
+  }
+  .footer__icon-earth {
+    fill: var(--icon-color);
+  }
+  .text-descr {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.21;
+    color: var(--contact-color);
+    padding-left: 9px;
+    padding-right: 7px;
   }
 }
 
