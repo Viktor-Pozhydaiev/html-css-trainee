@@ -1,0 +1,32 @@
+@media screen and (max-width: 1198px) {
+    body{
+        background: var(--accent-color);
+      }
+    .header{
+        min-width: 375px;
+        margin: 0 auto;
+        margin-top: 66px;
+    }
+    .header-wrapper{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    .selecta-link{
+        width: 96px ;
+        height: 31px;
+        fill: var(--icon-second-color);
+    }
+    .burger{
+        fill: var(--burger-text-color);
+        border: none;
+        width: 43px;
+        background-color: var(--accent-color);
+        cursor: pointer;
+    }
+    .burger-title{
+        display: none;
+    }
+}
