@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Amazon</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css" crossorigin="anonymous" >
-<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" 
+    integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+    crossorigin="anonymous"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Roboto:wght@700&display=swap"
     rel="stylesheet" >
@@ -25,17 +25,20 @@
 <a class="amazon-link link" href="#" >
     <picture>
      <source srcset="./images/header/spn-mobile.png 1x, " media="(min-xwidth: 320px)">
-     <source srcset="./images/header/spn-desctop.png 1x, "  media="(min-width: 1198px)"> 
+     <source srcset="./images/header/spn-desctop.png 1x, "  media="(min-width: 1024px)"> 
     <img class="amazon-img" src="./images/header/spn-mobile.png" alt="our skill">
     </picture>
 </a>
-<button class="burger ">
-    <svg class="burger-icon" width="24" height="5">
-        <use href="./images/icons.svg#icon-burger"></use>
-    </svg>
+<div class="header-burger-wrapper">
+    <button class="burger ">
+        <svg class="burger-icon" width="24" height="5">
+            <use href="./images/icons.svg#icon-burger"></use>
+        </svg>
+    </button>
     
-<span class="burger-title">Menu</span>
-</button>
+    <span class="burger-title">Menu</span>
+</div>
+
 </div>
     </header>
     <main>
@@ -56,136 +59,133 @@
             <!-- OUR SKILL -->
             <section class="our-skill ">
                        <div class="wrapper-skill container">
-                         <div class="wrapper-skill-list">
-                             <div class="wrapper-skill-item1  skill">
-                                  <div class="wrapper-skill-cart1">
-                                    <div class="list-wrap"> <span class="our-list-before">lorem</span>
-                                    <h3 class="skill-title">Advertisement</h3>
-                                    <p class="skill-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
-                                    <picture class="img-wrapper">
-                                        <source srcset="./images/cart1-mobile@1x.png 1x, ./images/cart1-mobile@2x.png 2x"
-                                            media="(min-xwidth: 320px)">
-                                         <source srcset="./images/cart1-desctop@1x.png 1x, ./images/cart1-desctop@2x.png 2x"
-                                            media="(min-width: 1198px)"> 
-                                        <img  src="./images/cart1-desctop@1x.png" alt="our skill">
-                                   </picture>
+                                <div class="wrapper-skill-list">
+                                    <div class="wrapper-skill-cart1">
+                                        <div class="list-wrap"> <span class="our-list-before">lorem</span>
+                                        <h3 class="skill-title">Advertisement</h3>
+                                        <p class="skill-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                     </div>
-                             </div>
-                             <div class="wrapper-skill-item2">
-                                <div class="wrapper-skill-cart2 skill">
-                                    <div class="list-wrap"> <span class="our-list-before">lorem</span> 
-                                    <h3 class="skill-title">Strategy</h3>
-                                    <p class="skill-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
-                                    <picture class="img-wrapper">
-                                        <source srcset="./images/cart2-mobile@1x.png 1x, ./images/cart2-mobile@2x.png 2x"
-                                            media="(min-xwidth: 320px)">
-                                         <source srcset="./images/cart2-desctop@1x.png 1x, ./images/cart2-desctop@2x.png 2x"
-                                            media="(min-width: 1198px)"> 
-                                        <img  src="./images/cart2-desctop@1x.png" alt="our skill">
-                                   </picture>
-                                    </div>
-                             </div>
-                             <div class="wrapper-skill-item3 skill">
+                                        <picture class="img-wrapper1">
+                                            <source srcset="./images/cart1-mobile@1x.png 1x, ./images/cart1-mobile@2x.png 2x"
+                                                media="(min-xwidth: 320px)">
+                                             <source srcset="./images/cart1-desctop@1x.png 1x, ./images/cart1-desctop@2x.png 2x"
+                                                media="(min-width: 1024px)"> 
+                                            <img  src="./images/cart1-mobile@1x.png" class="skill-img-wrapper1" alt="our skill">
+                                       </picture>
+                                        </div>
+                                 
+                                    <div class="wrapper-skill-cart2 ">
+                                        <div class="list-wrap"> <span class="our-list-before">lorem</span> 
+                                        <h3 class="skill-title">Strategy</h3>
+                                        <p class="skill-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
+                                        <picture class="img-wrapper2">
+                                            <source srcset="./images/cart2-mobile@1x.png 1x, ./images/cart2-mobile@2x.png 2x"
+                                                media="(min-xwidth: 320px)">
+                                             <source srcset="./images/cart2-desctop@1x.png 1x, ./images/cart2-desctop@2x.png 2x"
+                                                media="(min-width: 1024px)"> 
+                                            <img  src="./images/cart2-mobile@1x.png" class="skill-img-wrapper2" alt="our skill">
+                                       </picture>
+                                        </div>
+                                </div>
+                                <div class="wrapper-skill-list">
+                                    
                                 <div class="wrapper-skill-cart3">
                                     <div class="list-wrap"> <span class="our-list-before">lorem</span> 
                                     <h3 class="skill-title">Controlling</h3>
                                     <p class="skill-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
-                                    <picture class="img-wrapper">
+                                    <picture class="img-wrapper3">
                                         <source srcset="./images/cart3-mobile@1x.png 1x, ./images/cart3-mobile@2x.png 2x"
                                             media="(min-xwidth: 320px)">
                                          <source srcset="./images/cart3-desctop@1x.png 1x, ./images/cart3-desctop@2x.png 2x"
-                                            media="(min-width: 1198px)"> 
-                                        <img  src="./images/cart3-desctop@1x.png" alt="our skill">
+                                            media="(min-width: 1024px)"> 
+                                        <img  src="./images/cart3-mobile@1x.png"  class="skill-img-wrapper3"alt="our skill">
                                    </picture>
                                     </div>
-                             </div>
-                             <div class="wrapper-skill-item4 skill">
                                 <div class="wrapper-skill-cart4">
                                     <div class="list-wrap">  <span class="our-list-before">lorem</span>
                                     <h3 class="skill-title">Visual Branding</h3>
                                     <p class="skill-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
-                                    <picture class="img-wrapper">
+                                    <picture class="img-wrapper4">
                                         <source srcset="./images/cart4-mobile@1x.png 1x, ./images/cart4-mobile@2x.png 2x"
                                             media="(min-xwidth: 320px)">
                                          <source srcset="./images/cart4-desctop@1x.png 1x, ./images/cart4-desctop@2x.png 2x"
-                                            media="(min-width: 1198px)"> 
-                                        <img  src="./images/cart4-desctop@1x.png" alt="our skill">
+                                            media="(min-width: 1024px)"> 
+                                        <img  src="./images/cart4-mobile@1x.png" class="skill-img-wrapper4" alt="our skill">
                                    </picture>
                                     </div>
-                             </div>
-                             <div class="wrapper-skill-item5 skill">
+                                </div>
+                               <div class="wrapper-skill-list">
                                 <div class="wrapper-skill-cart5">
                                     <div class="list-wrap"> <span class="our-list-before">lorem</span> 
                                     <h3 class="skill-title">Management</h3>
                                     <p class="skill-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
-                                    <picture class="img-wrapper">
+                                    <picture class="img-wrapper5">
                                         <source srcset="./images/cart5-mobile@1x.png 1x, ./images/cart5-mobile@2x.png 2x"
                                             media="(min-xwidth: 320px)">
                                          <source srcset="./images/cart5-desctop@1x.png 1x, ./images/cart5-desctop@2x.png 2x"
-                                            media="(min-width: 1198px)"> 
-                                        <img  src="./images/cart5-desctop@1x.png" alt="our skill">
+                                            media="(min-width: 1024px)"> 
+                                        <img  src="./images/cart5-mobile@2x.png" class="skill-img-wrapper5" alt="our skill">
                                    </picture>
                                     </div>
-                             </div>
-                             <div class="wrapper-skill-item6 skill">
                                 <div class="wrapper-skill-cart6">
                                   <div class="list-wrap">  <span class="our-list-before">lorem</span> 
                                     <h3 class="skill-title">Career</h3>
                                     <p class="skill-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
-                                    <picture class="img-wrapper">
+                                    <picture class="skill-img-wrapper6">
                                         <source srcset="./images/cart6-mobile@1x.png 1x, ./images/cart6-mobile@2x.png 2x"
                                             media="(min-xwidth: 320px)">
                                          <source srcset="./images/cart6-desctop@1x.png 1x, ./images/cart6-desctop@2x.png 2x"
-                                            media="(min-width: 1198px)"> 
-                                        <img  src="./images/cart6-desctop@1x.png" alt="our skill">
+                                            media="(min-width: 1024px)"> 
+                                        <img  src="./images/cart6-mobile@1x.png" class="skill-img-wrapper6" alt="our skill">
                                    </picture>
                                     </div>
-                             </div>
-                         </div>
-                           <div class="wrapper-skill-cart7 skill">
-                            <div class="list-wrap7"> 
-                            <span class="our-list-before">lorem</span> 
-                            <h3 class="skill-title">About Us</h3>
-                            <p class="skill-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
-                            <picture class="img-wrapper">
-                                <source srcset="./images/cart7-mobile@1x.png 1x, ./images/cart7-mobile@2x.png 2x"
-                                    media="(min-xwidth: 320px)">
-                                 <source srcset="./images/cart7-desctop@1x.png 1x, ./images/cart7-desctop@2x.png 2x"
-                                    media="(min-width: 1198px)"> 
-                                <img  src="./images/cart7-desctop@1x.png" alt="our skill">
-                           </picture>                            
+                               </div>
+                             <div class="wrapper-skill-cart7 ">
+                                <div class="list-wrap7">  
+                                <span class="our-list-before">lorem</span> 
+                                <h3 class="skill-title">About Us</h3>
+                                <p class="skill-descr-cart7">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
+                                <picture class="skill-img-wrapper">
+                                    <source srcset="./images/cart7-mobile@1x.png 1x, ./images/cart7-mobile@2x.png 2x"
+                                        media="(min-xwidth: 320px)">
+                                     <source srcset="./images/cart7-desctop@1x.png 1x, ./images/cart7-desctop@2x.png 2x"
+                                        media="(min-width: 1024px)"> 
+                                    <img  src="./images/cart7-mobile@1x.png" class="skill-img-wrapper7" alt="our skill">
+                               </picture>  
+                               <div class="skill-icon-list">
+                                <div class="skill-icon_item">
+                                   <svg class="icon-skill" width="13" height="18">
+                                    <use href="./images/icons.svg#icon-location"></use><p class="icon-skill-descr">Toronto</p>
+                                   </svg> 
+                                </div>
+                                <div class="skill-icon_item">
+                                    <svg class="icon-skill" width="13" height="18">
+                                     <use href="./images/icons.svg#icon-location"></use><p class="icon-skill-descr">Warsaw</p>
+                                    </svg>
+                                </div>
+                                <div class="skill-icon_item">
+                                    <svg class="icon-skill" width="13" height="18">
+                                     <use href="./images/icons.svg#icon-location"></use><p class="icon-skill-descr">Munich</p>
+                                    </svg>
+                                </div>
+                            </div>                          
+                               </div>
                            </div>
-                       </div>
-                       <ul class="skill-icon-list">
-                        <li class="skill-icon_item">
-                           <svg class="icon-skill" width="13" height="18">
-                            <use href="./images/icons.svg#icon-location"></use><p>Toronto</p>
-                           </svg> 
-                        </li>
-                        <li class="skill-icon_item">
-                            <svg class="icon-skill" width="13" height="18">
-                             <use href="./images/icons.svg#icon-location"></use><p>Warsaw</p>
-                            </svg>
-                        </li>
-                        <li class="skill-icon_item">
-                            <svg class="icon-skill" width="13" height="18">
-                             <use href="./images/icons.svg#icon-location"></use><p>Munich</p>
-                            </svg>
-                        </li>
-                    </ul>
             
         </section>
         <!--Contact Us-->
         <footer class="contact">
-        <div class="contact-us-wrapper container">
             <h2 class="contact-title">Contact Us</h2>
+        <div class="contact-us-wrapper container">
          <div class="contact-form ">
          <form action="#" class="modal-form" name="your-phone" autocomplete="off">
-                <div class="init">
-                    <label class="contact-form-field">Your Name</label>
-                    <span class="form-imput"><input type="text" name="name" class="contact-form-info "></span>
-                    <label class="contact-form-field">Your Phone</label>
-                    <span class="form-imput"><input type="phone" name="your phone" class="contact-form-info "></span>          
+                <div class="modal-form-wrapper">
+      <div class="form-label-wrapp">
+        <label class="contact-form-field">Your Name</label>
+        <span class="form-imput"><input type="text" name="name" class="contact-form-info "></span>
+        <label class="contact-form-field">Your Phone</label>
+        <span class="form-imput"><input type="phone" name="your phone" class="contact-form-info "></span>    
+      </div>      
                     <label class="contact-form-field">Your Email</label>
                     <input type="email" name="email" class="contact-form-info">
                     <label class="contact-form-field">Message</label>      
@@ -194,13 +194,16 @@
                         <svg class="contact-btn-icon" width="24" height="24">
                             <use href="./images/icons.svg#icon-Shape"></use>
                         </svg></button>
-                </div>  
+        
                 </form>
                    
                     <div class="address-contact-list">
                         <div class="address-contact-data">
-                            <div class="mail-contact icon"><svg  width="17" height="12.75"><use href="./images/icons.svg#icon-email"></use></svg>Email:<a class="address-link" href="mailto:contact@sellectra.com"> contact@sellectra.com</a></div>
-                            <div class="tel-contact icon"><svg  width="17" height="16.67"><use href="./images/icons.svg#icon-Vector-1"></use></svg>Phone:
+                            <div class="mail-contact icon">
+                                <svg class="phone-location" width="17" height="12.75"><use href="./images/icons.svg#icon-email"></use></svg>Email:
+                                <a class="address-link" href="mailto:contact@sellectra.com"> contact@sellectra.com</a></div>
+                            <div class="tel-contact icon"><div>
+                                <svg class="phone-location" width="17" height="16.67"><use href="./images/icons.svg#icon-Vector-1"></use></svg>Phone:</div>
                                 <a class="address-link" href="tel:+4989614241330">Europe: +49 89 614 241 330</a>
                                 <a class="address-link" href="tel:+16474244324">North America: +1 647 424 4324</a>
                             </div>
@@ -209,16 +212,16 @@
                         
                         <div class="address-contact-wrapper">
                             <div class="address-location1">
-                                <div class="address-location-title icon"><svg class="location-icon" width="18" height="15"><use href="./images/icons.svg#icon-location"></use> </svg>Munich<span class="addres-location-descr">- sellectra GmbH</span></div>
+                                <div class="address-location-title"><svg  class="location-icon" width="18" height="15"><use href="./images/icons.svg#icon-location"></use> </svg>Munich<span class="addres-location-descr">- sellectra GmbH</span></div>
                                 <p class="location-descr-title">Prinzregentenstrasse 54 80538 Munich, Germany</p>
                             </div>
                             <div class="address-location2">
-                                <div class="address-location-title icon"><svg  width="18" height="15"><use href="./images/icons.svg#icon-location"></use> </svg>Toronto <span class="addres-location-descr">- sellectra Inc.</span></div>
-                                <p class="location-descr-title can">480 University Ave, Suite 1500
+                                <div class="address-location-title"><svg class="location-icon" width="18" height="15"><use href="./images/icons.svg#icon-location"></use> </svg>Toronto <span class="addres-location-descr">- sellectra Inc.</span></div>
+                                <p class="location-descr-title ">480 University Ave, Suite 1500
                                     Toronto, Ontario M%G 1V2, Canada</p>
                             </div>
                             <div class="address-location3">
-                                <div class="address-location-title icon"><svg  width="18" height="15"><use href="./images/icons.svg#icon-location"></use> </svg>Warsaw <span class="addres-location-descr">- sellectra sp. z o.o.</span></div>
+                                <div class="address-location-title"><svg class="location-icon" width="18" height="15"><use href="./images/icons.svg#icon-location"></use> </svg>Warsaw <span class="addres-location-descr">- sellectra sp. z o.o.</span></div>
                                 <p class="location-descr-title">Al. Jerozolimskie 181B
                                     02-222 Warsaw, Poland</p>
                             </div>
@@ -229,12 +232,13 @@
                 
                     <div class="footer-list">
                        
-                        <div class="footer-icon-wrapper"><a href="#" class="footer-social-likon link" target="_blank" rel="noopener noreferrer">
+                        <div class="footer-icon-wrapper">
+                            <a href="#" class="footer-social-likon link" target="_blank" rel="noopener noreferrer">
+                                <svg class="footer-icon-link" width="17" height="16">
+                                    <use href="./images/icons.svg#icon-linkedin"></use></svg></a>
+                            <a href="#" class="footer-social-likon link" target="_blank" rel="noopener noreferrer">
                             <svg class="footer-icon-link" width="21" height="21">
                                 <use href="./images/icons.svg#icon-instagram"></use></svg></a>
-                            <a href="#" class="footer-social-likon link" target="_blank" rel="noopener noreferrer">
-                            <svg class="footer-icon-link" width="17" height="16">
-                                <use href="./images/icons.svg#icon-linkedin"></use></svg></a>
                                 <a href="#" target="_blank" rel="noopener noreferrer" >
                                     <svg class="footer-icon-down" width="7" height="3.5">
                                         <use href="./images/icons.svg#icon-Vector-down"></use></svg>
