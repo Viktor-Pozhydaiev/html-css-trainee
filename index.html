@@ -179,22 +179,25 @@
         <div class="contact-us-wrapper container">
          <div class="contact-form ">
          <form action="#" class="modal-form" name="your-phone" autocomplete="off">
-                
-                    <label class="contact-form-field">Your Name</label>
-                    <span class="form-imput">
-                        <input type="text" name="name" class="contact-form-info "></span>
-                    <label class="contact-form-field">Your Phone</label>
-                    <span class="form-imput">
-                        <input type="phone" name="your phone" class="contact-form-info "></span>    
-                      
-                    <label class="contact-form-field">Your Email</label>
-                    <input type="email" name="email" class="contact-form-info">
-                    <label class="contact-form-field">Message</label>      
-                    <input type="text" name="message" class="contact-form-info">
-                    <button type="submit" class="contact-button" ><span class="contact-button-name">Send</span>
-                        <svg class="contact-btn-icon" width="24" height="24">
-                            <use href="./images/icons.svg#icon-Shape"></use>
-                        </svg></button>
+                <div class="input-form-wrapper">
+                    <label class="contact-form-field">Your Name<span class="form-imput">
+                        <input type="text" name="name" class="contact-form-info ">
+                    </span></label>                    
+                    <label class="contact-form-field">Your Phone<span class="form-imput">
+                        <input type="phone" name="your phone" class="contact-form-info ">
+                    </span></label>
+                    
+                </div>                      
+                       <div class="contact-field-wrapper">
+                        <label class="contact-form-field wrap-field">Your Email</label>
+                        <span class="form-imput"><input type="email" name="email" class="contact-form-info-field"></span>
+                        <label class="contact-form-field wrap-field">Message</label>      
+                        <span class="form-imput"><input type="text" name="message" class="contact-form-info-field"></span>
+                        <button type="submit" class="contact-button" ><span class="contact-button-name">Send</span>
+                            <svg class="contact-btn-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-Shape"></use>
+                            </svg></button>
+                       </div>
         
                 </form>
                    
@@ -231,8 +234,13 @@
                     </div>
                </div>
                 
-                    <div class="footer-list">
-                       
+                    <div class="footer-list">                       
+                        <p class="footer-link-selecta">2021 Sellectra <span class="footer-link-selecta-descr">Gmbh.All rights reserved.</span> </p>
+                        <div class="footer-link-wrap">
+                            <a href="#" class="footer-link-Legal  link" target="_blank" rel="noopener noreferrer">
+                       Legal Disclosure</a>
+                       <a href="#" class="footer-link-Legal  link" target="_blank" rel="noopener noreferrer">Privacy Policy</a> 
+                   </div>
                         <div class="footer-icon-wrapper">
                             <a href="#" class="footer-social-likon link" target="_blank" rel="noopener noreferrer">
                                 <svg class="footer-icon-link" width="17" height="16">
@@ -240,29 +248,20 @@
                             <a href="#" class="footer-social-likon link" target="_blank" rel="noopener noreferrer">
                             <svg class="footer-icon-link" width="21" height="21">
                                 <use href="./images/icons.svg#icon-instagram"></use></svg></a>
+                               <div class="contact-lang">
                                 <a href="#" target="_blank" rel="noopener noreferrer" >
-                                    <svg class="footer-icon-down" width="7" height="3.5">
-                                        <use href="./images/icons.svg#icon-Vector-down"></use></svg>
-                                </a><P class="text-descr">Eng</P>
-                                <a href="#" target="_blank" rel="noopener noreferrer">
                                     <svg class="footer__icon-earth" width="22" height="22">
-                                        <use href="./images/icons.svg#icon-earth"></use></svg>
-                                </a>
-                             
-                            </div>     
-                
-                     <div class="footer-link-wrap"><a href="#" class="footer-link1  link" target="_blank" rel="noopener noreferrer">
-                    Legal Disclosure
-                    </a>
-
-                    <a href="#" class="footer-link2 link" target="_blank" rel="noopener noreferrer">
-                    Privacy Policy
-                    </a> </div>
-                    <p class="footer-link1 ">2021 Sellectra Gmbh. All rights reserved.</p>
+                                        <use href="./images/icons.svg#icon-earth"></use></svg></a>
+                                        <P class="text-descr">Eng</P>  
+                                    <a href="#" target="_blank" class="icon-down-link" rel="noopener noreferrer">
+                                    <svg class="footer-icon-down" width="7" height="3.5">
+                                        <use href="./images/icons.svg#icon-Vector"></use></svg></a>
+                                           
+                               </div>                      
+                            </div>                     
                 </div>
         </div>                               
-        </footer>
-    
+        </footer>   
     
 </main>
 </body>

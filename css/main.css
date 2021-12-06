@@ -280,6 +280,12 @@ body {
     box-shadow: 7.19386px 7.19386px 32.3724px rgba(87, 99, 122, 0.12);
     border-radius: 15px;
     margin-bottom: 20px;
+    cursor: pointer;
+    transition: background 550ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .wrapper-skill-cart1:hover,
+  .wrapper-skill-cart1:focus {
+    background: #E1F1F3;
   }
   .skill-img-wrapper1 {
     position: relative;
@@ -324,6 +330,12 @@ body {
     box-shadow: 7.19386px 7.19386px 32.3724px rgba(87, 99, 122, 0.12);
     border-radius: 15px;
     margin-bottom: 20px;
+    cursor: pointer;
+    transition: background 550ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .wrapper-skill-cart2:hover,
+  .wrapper-skill-cart2:focus {
+    background: #E1F1F3;
   }
   .skill-img-wrapper2 {
     position: relative;
@@ -338,6 +350,12 @@ body {
     box-shadow: 7.19386px 7.19386px 32.3724px rgba(87, 99, 122, 0.12);
     border-radius: 15px;
     margin-bottom: 20px;
+    cursor: pointer;
+    transition: background 550ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .wrapper-skill-cart3:hover,
+  .wrapper-skill-cart3:focus {
+    background: #E1F1F3;
   }
   .skill-img-wrapper3 {
     position: relative;
@@ -352,6 +370,12 @@ body {
     box-shadow: 7.19386px 7.19386px 32.3724px rgba(87, 99, 122, 0.12);
     border-radius: 15px;
     margin-bottom: 20px;
+    cursor: pointer;
+    transition: background 550ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .wrapper-skill-cart4:hover,
+  .wrapper-skill-cart4:focus {
+    background: #E1F1F3;
   }
   .skill-img-wrapper4 {
     position: relative;
@@ -366,6 +390,12 @@ body {
     box-shadow: 7.19386px 7.19386px 32.3724px rgba(87, 99, 122, 0.12);
     border-radius: 15px;
     margin-bottom: 20px;
+    cursor: pointer;
+    transition: background 550ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .wrapper-skill-cart5:hover,
+  .wrapper-skill-cart5:focus {
+    background: #E1F1F3;
   }
   .skill-img-wrapper5 {
     bottom: 10px;
@@ -381,6 +411,12 @@ body {
     box-shadow: 7.19386px 7.19386px 32.3724px rgba(87, 99, 122, 0.12);
     border-radius: 15px;
     margin-bottom: 20px;
+    cursor: pointer;
+    transition: background 550ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .wrapper-skill-cart6:hover,
+  .wrapper-skill-cart6:focus {
+    background: #E1F1F3;
   }
   .skill-img-wrapper6 {
     width: 253px;
@@ -397,6 +433,12 @@ body {
     background: var(--bacground-second-color);
     box-shadow: 7.19386px 7.19386px 32.3724px rgba(87, 99, 122, 0.12);
     border-radius: 15px;
+    cursor: pointer;
+    transition: background 550ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .wrapper-skill-cart7:hover,
+  .wrapper-skill-cart7:focus {
+    background: #E1F1F3;
   }
   .skill-img-wrapper7 {
     position: relative;
@@ -665,6 +707,7 @@ body {
     background: var(--bacgraund-color);
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
   }
   .contact-title {
     font-family: var(--main-font);
@@ -683,6 +726,11 @@ body {
     flex-direction: column;
     align-items: center;
   }
+  .input-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-left: 18px;
+  }
   .modal-form-wrapper {
     display: flex;
     flex-direction: column;
@@ -693,14 +741,16 @@ body {
     flex-direction: column;
   }
   .contact-form-field {
-    padding-bottom: 8px;
     font-family: var(--secondary-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.21;
     color: var(--secondary-color);
-    text-align: end;
-    padding-right: 247px;
+    text-align: start;
+  }
+  .contact-field-wrapper {
+    padding-left: 18px;
+    text-align: start;
   }
   .contact-form-info {
     min-width: 331px;
@@ -708,6 +758,18 @@ body {
     border: 1px solid #D7DADE;
     box-sizing: border-box;
     border-radius: 15px;
+    margin-top: 8px;
+  }
+  .contact-form-info-field {
+    min-width: 331px;
+    min-height: 52px;
+    border: 1px solid #D7DADE;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-top: 8px;
+  }
+  .wrap-field {
+    margin-top: 8px;
   }
   .contact-form-field:not(:first-child) {
     padding-top: 15px;
@@ -722,6 +784,7 @@ body {
     background: var(--icon-color);
     border-radius: 56.1518px;
     border: none;
+    margin-left: 82px;
   }
   .contact-button-name {
     font-family: var(--main-font);
@@ -813,7 +876,7 @@ body {
   }
   .footer-list {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: flex-start;
     padding-top: 30px;
     padding-bottom: 22px;
@@ -824,26 +887,37 @@ body {
     align-items: center;
     padding-left: 10px;
   }
-  .footer-link1 {
+  .footer-link-selecta {
+    width: 302px;
     font-family: var(--secondary-font);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.21;
     color: var(--contact-color);
-    padding-right: 24px;
-    padding-left: 52px;
+    padding-left: 25x;
     text-transform: uppercase;
+    white-space: nowrap;
   }
   .footer-link1:not(:last-child) {
     text-transform: uppercase;
   }
-  .footer-link2 {
+  .footer-link-Legal {
     font-family: var(--secondary-font);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.21;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: var(--contact-color);
+  }
+  .footer-link-Legal:not(:last-child) {
+    padding-right: 24px;
+  }
+  .footer-link-selecta-descr {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.21;
+    text-transform: capitalize;
   }
   .location-icon {
     margin-right: 11px;
@@ -871,9 +945,14 @@ body {
     display: flex;
     padding-top: 30px;
     padding-bottom: 20px;
+    padding-left: 37px;
   }
   .footer__icon-earth {
     fill: var(--icon-color);
+  }
+  .contact-lang {
+    display: flex;
+    align-items: center;
   }
   .text-descr {
     font-family: Montserrat;
@@ -934,6 +1013,7 @@ body {
   }
   .contact-form-field {
     display: flex;
+    flex-direction: column;
     font-family: var(--secondary-font);
     font-weight: 500;
     font-size: 14px;
@@ -951,7 +1031,7 @@ body {
     border-radius: 15px;
   }
   .contact-form-info:not(:first-child) {
-    width: 480px;
+    min-width: 480px;
     height: 52px;
     border: 1px solid #D7DADE;
     box-sizing: border-box;
@@ -1030,12 +1110,94 @@ body {
   }
   .footer-list {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
+    padding-top: 116px;
+    padding-bottom: 38px;
   }
   .footer-icon-wrapper {
     display: flex;
-    flex-direction: row-reverse;
+    order: 2;
+    padding-right: 134px;
+  }
+  .contact-lang {
+    display: flex;
+    align-items: center;
+  }
+  .footer-link-selecta {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.21;
+    color: var(--contact-color);
+    text-transform: uppercase;
+    padding-right: 301px;
+  }
+  .footer-link-selecta-descr {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.21;
+    color: var(--contact-color);
+    text-transform: capitalize;
+  }
+  .footer-link-wrap {
+    display: flex;
+    order: 3;
+  }
+  .footer-link-Legal {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.21;
+    color: var(--contact-color);
+    text-transform: capitalize;
+  }
+  .footer-link-Legal:first-child {
+    padding-right: 24px;
+  }
+  .input-form-wrapper {
+    display: flex;
+    padding-bottom: 18px;
+  }
+  .footer-social-likon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 35px;
+    min-height: 35px;
+    fill: var(--bacground-second-color);
+    background: var(--icon-color);
+    border-radius: 5px;
+  }
+  .footer-social-likon:not(:first-child) {
+    margin-left: 5px;
+  }
+  .footer__icon-earth {
+    fill: var(--icon-color);
+  }
+  .contact-lang {
+    padding-left: 44px;
+  }
+  .input-field-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form-info-field {
+    width: 480px;
+    height: 52px;
+    border: 1px solid #D7DADE;
+    box-sizing: border-box;
+    border-radius: 15px;
+  }
+  .text-descr {
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.21;
+    color: var(--contact-color);
+    padding-left: 9px;
+    padding-right: 7px;
   }
 }
 
