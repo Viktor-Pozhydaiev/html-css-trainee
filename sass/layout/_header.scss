@@ -23,8 +23,12 @@
         fill: var(--burger-text-color);
         border: none;
         width: 43px;
-        background-color: var(--accent-color);
+        background: var(--bacground-second-color);
         cursor: pointer;
+    }
+    .amazon-link{
+        
+        background: var(--bacground-second-color);
     }
     .burger-title{
         display: none;
@@ -57,7 +61,7 @@
         fill: var(--burger-text-color);
         border: none;
         width: 43px;
-        background-color: var(--bacground-second-color);
+        background: var(--bacground-second-color);
         cursor: pointer;
     }
     .header-burger-wrapper{
