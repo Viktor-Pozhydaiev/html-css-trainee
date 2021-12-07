@@ -814,6 +814,10 @@ body {
     line-height: 2.5;
     color: var(--text-decoration-color);
   }
+  .tell-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
   .tel-contact {
     display: flex;
     flex-direction: column;
@@ -1020,6 +1024,9 @@ body {
     line-height: 1.21;
     color: var(--secondary-color);
   }
+  .contact-form-field {
+    margin-right: 20px;
+  }
   .contact-form-field:not(:last-child) {
     display: flex;
   }
@@ -1043,7 +1050,13 @@ body {
     padding-right: 111px;
   }
   .address-contact-data {
+    padding-right: 76px;
     padding-left: 116px;
+  }
+  .tell-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   .contact-button {
     display: flex;
@@ -1088,11 +1101,24 @@ body {
     color: var(--icon-color);
   }
   .tel-contact {
+    display: flex;
+    flex-direction: column;
     font-family: var(--secondary-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 2.54;
     color: var(--text-decoration-color);
+  }
+  .address-location1 {
+    width: 233px;
+    padding-bottom: 23px;
+  }
+  .address-location2 {
+    width: 266px;
+    padding-bottom: 23px;
+  }
+  .phone-wrapper {
+    padding-left: 10px;
   }
   .mail-contact {
     font-family: var(--secondary-font);
