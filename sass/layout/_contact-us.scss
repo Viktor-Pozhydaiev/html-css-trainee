@@ -332,8 +332,11 @@
         font-size: 14px;
         line-height: 1.21;
         color: var(--secondary-color);
+        padding-bottom: 8px;
     }
     .contact-form-field{
+        
+        margin-top: 8px;
         margin-right: 20px;
     }
     .contact-form-field:not(:last-child){
@@ -352,6 +355,9 @@
         border: 1px solid #D7DADE;
         box-sizing: border-box;
         border-radius: 15px;
+    }
+    .contact-form-info{
+        margin-top: 8px;
     }
     .address-contact-list{
         display: flex;
@@ -493,7 +499,7 @@
     }
     .input-form-wrapper{
         display: flex;
-        padding-bottom: 18px;
+        padding-bottom: 4px;
     }
     .footer-social-likon{
         display: flex;
