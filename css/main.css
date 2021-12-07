@@ -69,6 +69,9 @@ body {
     height: 31px;
     fill: var(--icon-second-color);
   }
+  .header-burger-wrapper {
+    cursor: pointer;
+  }
   .burger {
     fill: var(--burger-text-color);
     border: none;
@@ -111,6 +114,7 @@ body {
   }
   .header-burger-wrapper {
     display: flex;
+    cursor: pointer;
   }
   .burger-title {
     font-family: var(--secondary-font);
@@ -778,6 +782,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     width: 190px;
     height: 57px;
     margin-top: 26px;

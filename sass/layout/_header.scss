@@ -16,6 +16,9 @@
         height: 31px;
         fill: var(--icon-second-color);
     }
+    .header-burger-wrapper{
+        cursor: pointer;
+    }
     .burger{
         fill: var(--burger-text-color);
         border: none;
@@ -59,6 +62,7 @@
     }
     .header-burger-wrapper{
         display: flex;
+        cursor: pointer;
     }
     .burger-title{
         font-family: var(--secondary-font);
