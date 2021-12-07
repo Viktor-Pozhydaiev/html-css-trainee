@@ -110,6 +110,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-right: 70px;
+        padding-left: 40px;
     }
     .mail-contact{    
         display: flex;
@@ -123,6 +125,7 @@
     .tell-wrapper{
         display: flex;
         flex-direction: column;
+        padding-left: 23px;
     }
     .tel-contact{
         display: flex;
@@ -133,6 +136,7 @@
         line-height: 2.5;
         color: var(--text-decoration-color);
         padding-top: 10px;
+        padding-left: 16px;
     }
     .address-link{
         font-family: var(--secondary-font);
