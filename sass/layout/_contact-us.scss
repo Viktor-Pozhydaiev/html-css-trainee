@@ -1,13 +1,12 @@
 @media screen and (min-width: 320px) and (max-width: 1024px) {
     .contact{
-        width: 375px;
+        min-width: 375px;
         height: 100%;
-        background: var(--bacgraund-color);  
-        margin: 0 auto;        
+        margin: 0 auto;      
+        background-color: var(--bacgraund-color);    
     }
     .contact-us-wrapper{
         display: flex;
-        background: var(--bacgraund-color);  
         flex-direction: column;
         align-items: center; 
         margin: 0 auto;
@@ -25,6 +24,7 @@
         margin-top: 100px;
     }
     .modal-form{
+        width: 331px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -32,7 +32,6 @@
     .input-form-wrapper{
         display: flex;
         flex-direction: column;
-        padding-left: 18px;
     }
     
     .modal-form-wrapper{
@@ -53,7 +52,6 @@
         text-align: start;
     }
     .contact-field-wrapper{
-        padding-left: 18px;
         text-align: start;
         padding-top: 8px;
     }
@@ -73,6 +71,11 @@
         border-radius: 15px;
         margin-bottom: 15px;
         
+    }
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
     }
     .contact-form-field:not(:first-child){
         margin-top: 15px;
@@ -164,6 +167,8 @@
         width: 250px;
     }
     .address-location-title{
+        display: flex;
+        align-items: center;
         font-family: var(--secondary-font);
         font-weight: 600;
         font-size: 16px;
@@ -373,6 +378,7 @@
         padding-left: 116px;
     }
     .tell-wrapper{
+        width: 252px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -411,6 +417,8 @@
         padding-left: 10px;
     }
     .address-location-title{
+        display: flex;
+        align-items: center;
         font-family: var(--secondary-font);
         font-weight: 600;
         font-size: 16px;
@@ -451,7 +459,7 @@
         line-height: 2.54;
         color: var(--text-decoration-color);
     }
-    .address-link{
+    .address-link{        
         font-family: var(--secondary-font);
         font-weight: 400;
         font-size: 14px;
