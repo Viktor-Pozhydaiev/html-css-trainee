@@ -805,6 +805,7 @@ body {
   .contact-field-wrapper {
     padding-left: 18px;
     text-align: start;
+    padding-top: 8px;
   }
   .contact-form-info {
     min-width: 331px;
@@ -820,13 +821,13 @@ body {
     border: 1px solid #D7DADE;
     box-sizing: border-box;
     border-radius: 15px;
-    margin-top: 8px;
+    margin-bottom: 15px;
+  }
+  .contact-form-field:not(:first-child) {
+    margin-top: 15px;
   }
   .wrap-field {
     margin-top: 8px;
-  }
-  .contact-form-field:not(:first-child) {
-    padding-top: 15px;
   }
   .contact-button {
     display: flex;
