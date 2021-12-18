@@ -193,14 +193,10 @@ body {
 
 @media screen and (min-width: 1025px) {
   .about-us {
-    min-width: 1440px;
     margin: 0 auto;
   }
   .about-wrapper {
     margin-top: 132px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
   }
   .about-title {
     font-family: var(--secondary-font);
@@ -243,6 +239,7 @@ body {
     border-radius: 56.1518px;
     border: none;
     cursor: pointer;
+    margin: 0 auto;
   }
   .button-name-us {
     font-family: var(--main-font);
@@ -271,6 +268,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 100px;
+    margin-bottom: 100px;
     padding: 0;
   }
   .wrapper-skill-cart1 {
@@ -482,11 +480,12 @@ body {
 }
 
 @media screen and (min-width: 1025px) {
-  .container {
-    min-width: 1440px;
+  .our-skill {
+    margin-top: 85px;
   }
   .wrapper-skill-list {
     display: flex;
+    justify-content: center;
   }
   .wrapper-skill-item1 {
     padding-right: 27px;
@@ -498,11 +497,7 @@ body {
     padding-right: 27px;
   }
   .wrapper-skill {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-top: 85px;
+    margin: 0 auto;
   }
   .wrapper-skill-cart1 {
     cursor: pointer;
@@ -691,11 +686,10 @@ body {
   .wrapper-skill-cart7:focus {
     background: #E1F1F3;
   }
+  .skill-img-wrapper7 {
+    margin: 0 auto;
+  }
   .list-wrap7 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding-top: 38px;
     text-align: center;
   }
@@ -751,15 +745,14 @@ body {
 
 @media screen and (min-width: 320px) and (max-width: 1024px) {
   .contact {
-    min-width: 375px;
+    display: flex;
+    flex-direction: column;
     height: 100%;
     margin: 0 auto;
     background-color: var(--bacgraund-color);
+    padding-bottom: 22px;
   }
   .contact-us-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin: 0 auto;
   }
   .contact-title {
@@ -776,9 +769,6 @@ body {
   }
   .modal-form {
     width: 331px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
   .input-form-wrapper {
     display: flex;
@@ -821,11 +811,6 @@ body {
     border-radius: 15px;
     margin-bottom: 15px;
   }
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
   .contact-form-field:not(:first-child) {
     margin-top: 15px;
   }
@@ -854,21 +839,9 @@ body {
     padding-right: 11px;
   }
   .address-contact-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 46px;
-  }
-  .address-contact-data {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-right: 70px;
-    padding-left: 40px;
+    padding: 46px 43px;
   }
   .mail-contact {
-    display: flex;
-    align-items: center;
     font-family: var(--secondary-font);
     font-weight: 500;
     font-size: 14px;
@@ -881,15 +854,12 @@ body {
     padding-left: 23px;
   }
   .tel-contact {
-    display: flex;
-    flex-direction: column;
     font-family: var(--secondary-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 2.5;
     color: var(--text-decoration-color);
     padding-top: 10px;
-    padding-left: 16px;
   }
   .address-link {
     font-family: var(--secondary-font);
@@ -899,9 +869,6 @@ body {
     color: var(--text-decoration-color);
   }
   .address-contact-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
     padding-top: 23px;
   }
   .address-location1 {
@@ -946,7 +913,7 @@ body {
   .footer-list {
     display: flex;
     flex-direction: column-reverse;
-    align-items: flex-start;
+    align-items: center;
     padding-top: 30px;
     padding-bottom: 22px;
   }
@@ -954,7 +921,8 @@ body {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    padding-left: 10px;
+    padding-left: 22px;
+    padding-right: 150px;
   }
   .footer-link-selecta {
     width: 302px;
@@ -1011,10 +979,8 @@ body {
     margin-left: 54px;
   }
   .footer-link-wrap {
-    display: flex;
     padding-top: 30px;
     padding-bottom: 20px;
-    padding-left: 37px;
   }
   .footer__icon-earth {
     fill: var(--icon-color);
@@ -1038,7 +1004,6 @@ body {
   .contact {
     background-color: var(--bacgraund-color);
     margin-top: 160px;
-    min-width: 1440px;
   }
   .contact-us-wrapper {
     display: flex;
@@ -1047,7 +1012,6 @@ body {
   }
   .contact-form {
     display: flex;
-    padding-left: 141px;
   }
   .contact-title {
     font-family: var(--main-font);
@@ -1063,9 +1027,6 @@ body {
   .modal-form {
     padding-right: 116px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    min-width: 480px;
     border: 1px solid var(--bacgraund-color);
   }
   .modal-form-wrapper {
@@ -1221,7 +1182,6 @@ body {
   }
   .footer-icon-wrapper {
     display: flex;
-    order: 2;
     padding-right: 134px;
   }
   .contact-lang {
@@ -1246,7 +1206,6 @@ body {
     text-transform: capitalize;
   }
   .footer-link-wrap {
-    display: flex;
     order: 3;
   }
   .footer-link-Legal {

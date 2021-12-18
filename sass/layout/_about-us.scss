@@ -68,14 +68,10 @@
 }
 @media screen and (min-width: 1025px) {
     .about-us{
-        min-width: 1440px;
         margin: 0 auto;
     }
     .about-wrapper{
         margin-top: 132px;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
     }
     .about-title{
         font-family: var(--secondary-font);
@@ -119,6 +115,7 @@
         border-radius: 56.1518px;
         border: none;   
         cursor: pointer; 
+        margin: 0 auto;
      }
         .button-name-us{
             font-family: var(--main-font);

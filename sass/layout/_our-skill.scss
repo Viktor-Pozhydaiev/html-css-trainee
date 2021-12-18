@@ -12,6 +12,7 @@
         flex-direction: column;
         align-items: center;
         margin-top: 100px;
+        margin-bottom: 100px;
         padding: 0;
     }
     .wrapper-skill-cart1{
@@ -223,11 +224,11 @@
     }
 }
 @media screen and (min-width: 1025px) {
-    .container{      
-        min-width: 1440px; 
-    }
+    .our-skill{
+       margin-top: 85px;}
     .wrapper-skill-list{
         display: flex;
+        justify-content: center;
     }
     .wrapper-skill-item1{
         padding-right: 27px;
@@ -239,11 +240,7 @@
         padding-right: 27px;
     }
     .wrapper-skill{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-        margin-top: 85px;
+        margin: 0 auto;
         
     }
     .wrapper-skill-cart1{
@@ -435,11 +432,10 @@
     .wrapper-skill-cart7:focus{
         background: #E1F1F3;
     }
+    .skill-img-wrapper7{
+        margin: 0 auto;
+    }
     .list-wrap7{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         padding-top: 38px;
      text-align: center;
     }
