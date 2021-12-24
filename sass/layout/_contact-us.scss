@@ -19,7 +19,6 @@
         text-transform: capitalize;        
         color: var(--title-color);
         padding-bottom: 30px;
-       padding-top: 30px;
         margin-top: 100px;
     }
     .modal-form{
@@ -270,6 +269,7 @@
     }
     .contact-form{
         display: flex;
+        width: 1157px;
     }
     .contact-title{
         font-family: var(--main-font);
@@ -286,8 +286,6 @@
         padding-right: 116px;
         margin: 0 auto;
         border: 1px solid var(--bacgraund-color);
-        
-       
     }
     .modal-form-wrapper{
         display: flex;
@@ -306,14 +304,12 @@
         font-size: 14px;
         line-height: 1.21;
         color: var(--secondary-color);
-        padding-bottom: 8px;
+        padding-bottom: 8px;  
+        margin-top: 8px;
+        margin-right: 20px;
     }
     .location-icon{
         fill: var(--text-decoration-color);
-    }
-    .contact-form-field{        
-        margin-top: 8px;
-        margin-right: 20px;
     }
     .contact-form-field:not(:last-child){
         display: flex;
@@ -342,7 +338,6 @@
     }
     .address-contact-data{
         padding-right: 76px;
-        padding-left: 116px;
     }
     .tell-wrapper{
         width: 252px;

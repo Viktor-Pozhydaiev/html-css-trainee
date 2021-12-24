@@ -1,5 +1,8 @@
 
 @media screen and(min-width: 320px) and (max-width: 1024px) {
+    .our-skill{
+        margin-bottom: 100px;
+    }
     .skill-icon-list{
         display: none;
     }
@@ -12,22 +15,6 @@
         flex-direction: column;
         align-items: center;
         margin-top: 100px;
-        margin-bottom: 100px;
-        padding: 0;
-    }
-    .wrapper-skill-cart1{
-        width: 331px;
-        height: 386px;
-        background: var(--bacground-second-color);
-        box-shadow: 7.19386px 7.19386px 32.3724px rgba(87, 99, 122, 0.12);
-        border-radius: 15px;
-        margin-bottom: 20px;
-        cursor: pointer;
-        transition: background 550ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    .wrapper-skill-cart1:hover,
-    .wrapper-skill-cart1:focus{
-        background: #E1F1F3;
     }
     .skill-img-wrapper1{
         position: relative;
@@ -70,7 +57,11 @@
         border: 1px solid #303030;
         
     }
+    .before-wrapper{
+        padding-top: 30px;
+    }
     .skill-title{
+        text-align: center;
         font-family: var(--main-font);
         font-weight: 700;
         font-size: 34px;
@@ -88,59 +79,18 @@
         color: var(--secondary-color);
         margin: 12px 0px;
     }
-    .wrapper-skill-cart2{
-        width: 331px;
-        height: 386px;
-        background: var(--bacground-second-color);
-        box-shadow: 7.19386px 7.19386px 32.3724px rgba(87, 99, 122, 0.12);
-        border-radius: 15px;
-        margin-bottom: 20px;
-        cursor: pointer;
-        transition: background 550ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    .wrapper-skill-cart2:hover,
-    .wrapper-skill-cart2:focus{
-        background: #E1F1F3;
-    }
     .skill-img-wrapper2{
         position: relative;
-        left: 30px;
+        left: 26px;
         width: 306px;
         height: 252px;
-    }
-    .wrapper-skill-cart3{
-        width: 331px;
-        height: 423px;
-        background: var(--bacground-second-color);
-        box-shadow: 7.19386px 7.19386px 32.3724px rgba(87, 99, 122, 0.12);
-        border-radius: 15px;
-        margin-bottom: 20px;
-        cursor: pointer;
-        transition: background 550ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    .wrapper-skill-cart3:hover,
-    .wrapper-skill-cart3:focus{
-        background: #E1F1F3;
     }
     .skill-img-wrapper3{
         position: relative;
         left: 47px;
+        bottom: 36px;
         width: 284px;
         height: 282px;
-    }
-    .wrapper-skill-cart4{
-        width: 331px;
-        height: 427px;
-        background: var(--bacground-second-color);
-        box-shadow: 7.19386px 7.19386px 32.3724px rgba(87, 99, 122, 0.12);
-        border-radius: 15px;
-        margin-bottom: 20px;
-        cursor: pointer;
-        transition: background 550ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    .wrapper-skill-cart4:hover,
-    .wrapper-skill-cart4:focus{
-        background: #E1F1F3;
     }
     .skill-img-wrapper4{
         position: relative;
@@ -148,7 +98,7 @@
         width: 284px;
         height: 280px;
     }
-    .wrapper-skill-cart5{
+    .wrapper-big-card{
         width: 331px;
         height: 413px;
         background: var(--bacground-second-color);
@@ -158,17 +108,13 @@
         cursor: pointer;
         transition: background 550ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .wrapper-skill-cart5:hover,
-    .wrapper-skill-cart5:focus{
-        background: #E1F1F3;
-    }
     .skill-img-wrapper5{
         bottom: 10px;
         position: relative;
         width: 245px;
         left: 81px;
     }
-    .wrapper-skill-cart6{
+    .wrapper-small-card{
         position: relative;
         width: 331px;
         height: 386px;
@@ -179,16 +125,17 @@
         cursor: pointer;
         transition: background 550ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .wrapper-skill-cart6:hover,
-    .wrapper-skill-cart6:focus{
+    .wrapper-small-card:hover,
+    .wrapper-small-card:focus{
         background: #E1F1F3;
     }
     .skill-img-wrapper6{
         width: 253px;
-        left: 39px;
+        left: 79px;
+        bottom: 4px;
         position: relative;
     }
-    .wrapper-skill-cart7{
+    .wrapper-big-large-card{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -198,11 +145,12 @@
         background: var(--bacground-second-color);
         box-shadow: 7.19386px 7.19386px 32.3724px rgba(87, 99, 122, 0.12);
         border-radius: 15px;
+        margin: 0 auto;
         cursor: pointer;
         transition: background 550ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .wrapper-skill-cart7:hover,
-    .wrapper-skill-cart7:focus{
+    .wrapper-big-large-card:hover,
+    .wrapper-big-large-card:focus{
         background: #E1F1F3;
     }
     .skill-descr-cart7{
@@ -225,10 +173,15 @@
 }
 @media screen and (min-width: 1025px) {
     .our-skill{
-       margin-top: 85px;}
-    .wrapper-skill-list{
+       margin-top: 85px;
+    }
+    .wrapper-skill{
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+        
     }
     .wrapper-skill-item1{
         padding-right: 27px;
@@ -239,48 +192,40 @@
     .wrapper-skill-item5{
         padding-right: 27px;
     }
-    .wrapper-skill{
-        margin: 0 auto;
-        
-    }
-    .wrapper-skill-cart1{
-        cursor: pointer;
-        display: flex;
-        align-content: flex-start;
-        justify-content: space-between;
-        text-align: justify;
+    .wrapper-big-card{
         width: 763px;
         height: 370px;
         background: var(--bacground-second-color);
         box-shadow: 7.19386px 7.19386px 32.3724px rgba(87, 99, 122, 0.12);
         border-radius: 15px;
         margin-bottom: 28px;
-        margin-right: 27px;
+        transition: background 550ms cubic-bezier(0.4, 0, 0.2, 1);        
+        cursor: pointer;
+    }
+    .wrapper-small-card{
+        cursor: pointer;
+        position: relative;
+        width: 369px;
+        height: 370px;
+        background: var(--bacground-second-color);
+        box-shadow: 7.19386px 7.19386px 32.3724px rgba(87, 99, 122, 0.12);
+        border-radius: 15px;
+        margin-bottom: 28px;
         transition: background 550ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .wrapper-skill-cart1:hover,
-    .wrapper-skill-cart1:focus{
+    .wrapper-small-card::nth-child(2n+1){
+        margin-left: 100px;
+    }
+    .wrapper-small-card:hover,
+    .wrapper-small-card:focus{
         background: #E1F1F3;
-    }
-    .skill-img-wrapper1{
-        position: relative;
-        padding-top: 32px;
-        width: 414px;
-        height: 315px;
-        box-sizing: content-box;
-    }
-    
-    
+    }  
+    .wrap-field{
+        height: 412px;
+    }  
     .list-wrap{
         padding-top: 38px;
         padding-left: 42px;
-    }
-    .our-list-before{
-        font-family: var(--secondary-font);
-        font-weight: 600;
-        font-size: 12px;
-        line-height: 1.5;
-        color: var(--second-title-color);
     }
     .skill-title{
         font-family: var(--main-font);
@@ -308,134 +253,69 @@
         color: var(--secondary-color);
         margin: 12px 0px;
     }
-    .wrapper-skill-cart2{
-        cursor: pointer;
-        width: 369px;
-        height: 370px;
-        background: var(--bacground-second-color);
-        box-shadow: 7.19386px 7.19386px 32.3724px rgba(87, 99, 122, 0.12);
-        border-radius: 15px;
-        margin-bottom: 28px;
-        transition: background 550ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    .wrapper-skill-cart2:hover,
-    .wrapper-skill-cart2:focus{
+    .wrapper-big-card:hover,
+    .wrapper-big-card:focus{
         background: #E1F1F3;
     }
-    .skill-img-wrapper3{
+    .img-wrapper1{
         position: relative;
-        width: 306px;
-        height: 304px;
-        left: 74px;
-        bottom: 40px;
-    }
-    .skill-img-wrapper2{
+        width: 414px;
+        height: 315px;
+        left: 361px;
+        padding-bottom: 23px;
+        bottom: 142px;
+    }  
+    .img-wrapper2{
         position: relative;
-        padding-left: 64px;
+        left: 64px;
         bottom: 22px;
-        box-sizing: content-box;
         width: 306px;
         height: 252px;
     }
-    .wrapper-skill-cart3{
-        cursor: pointer;
-        width: 379px;
-        height: 412px;
-        background: var(--bacground-second-color);
-        box-shadow: 7.19386px 7.19386px 32.3724px rgba(87, 99, 122, 0.12);
-        border-radius: 15px;
-        margin-bottom: 27px;
-        margin-right: 27px;
-        transition: background 550ms cubic-bezier(0.4, 0, 0.2, 1);
+    .img-wrapper3{
+        position: relative;
+        width: 306.3px;
+        height: 303.73px;
+        left: 62px;
+        bottom: 45px;
     }
-    .wrapper-skill-cart3:hover,
-    .wrapper-skill-cart3:focus{
-        background: #E1F1F3;
-    }
-    .wrapper-skill-cart4{
-        cursor: pointer;
-        width: 764px;
-        height: 412px;
-        background: var(--bacground-second-color);
-        box-shadow: 7.19386px 7.19386px 32.3724px rgba(87, 99, 122, 0.12);
-        border-radius: 15px;
-        margin-bottom: 27px;
-        transition: background 550ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    .wrapper-skill-cart4:hover,
-    .wrapper-skill-cart4:focus{
-        background: #E1F1F3;
-    }
-    .skill-img-wrapper4{
+    .img-wrapper4{
         position: relative;
         width: 442px;
         height: 435px;
         left: 322px;
-        bottom: 167px;
+        bottom: 170px;
     }
-    .wrapper-skill-cart5{
-        cursor: pointer;
-        width: 759px;
-        height: 370px;
-        background: var(--bacground-second-color);
-        box-shadow: 7.19386px 7.19386px 32.3724px rgba(87, 99, 122, 0.12);
-        border-radius: 15px;
-        margin-bottom: 27px;
-        margin-right: 27px;
-        transition: background 550ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    .skill-img-wrapper5{
+    .img-wrapper5{
         position: relative;
-        width: 338px;
+        width: 337.94px;
         height: 382px;
         left: 380px;
-        top: -204px;
+        bottom: 207px;
     }
-    .wrapper-skill-cart5:hover,
-    .wrapper-skill-cart5:focus{
-        background: #E1F1F3;
-    }
-    .wrapper-skill-cart6{
-        cursor: pointer;
-        position: relative;
-        width: 371px;
-        height: 370px;
-        background: var(--bacground-second-color);
-        box-shadow: 7.19386px 7.19386px 32.3724px rgba(87, 99, 122, 0.12);
-        border-radius: 15px;
-        margin-bottom: 27px;
-        transition: background 550ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    .skill-img-wrapper6{
+    .img-wrapper6{
         position: relative;
         width: 253px;
         height: 223px;
-        left: 59px;
-        bottom: 15px;
+        left: 117px;
+        bottom: 34px;
     }
-    .wrapper-skill-cart6:hover,
-    .wrapper-skill-cart6:focus{
-        background: #E1F1F3;
-    }
-    .wrapper-skill-cart7{
+    .wrapper-big-large-card{
+        width: 1157px;
         cursor: pointer;
         display: flex;
         flex-direction: column;
-        min-width: 1157px;
-        min-height: 516px;
         background: var(--bacground-second-color);
         box-shadow: 7.19386px 7.19386px 32.3724px rgba(87, 99, 122, 0.12);
         border-radius: 15px;
         transition: background 550ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    .wrapper-skill-cart7:hover,
-    .wrapper-skill-cart7:focus{
-        background: #E1F1F3;
-    }
-    .skill-img-wrapper7{
         margin: 0 auto;
     }
-    .list-wrap7{
+    .wrapper-big-large-card:hover,
+    .wrapper-big-large-card:focus{
+        background: #E1F1F3;
+    }
+    .list-big-large-card{
         padding-top: 38px;
      text-align: center;
     }
@@ -460,7 +340,6 @@
         color: var(--contact-link-kolor);
     }
     .our-list-before{
-        display: flex;
         padding-left: 19px;
         position: relative;
         font-family: var(--secondary-font);
@@ -484,7 +363,7 @@
         width: 12px;
         left: 0px;
         height: 0px;
-        top: 7px;     
+        top: 6px;     
         background-color: var(--second-title-color);   
         border: 1px solid #303030;
         
