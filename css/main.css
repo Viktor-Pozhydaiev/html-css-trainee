@@ -165,7 +165,7 @@ body {
     padding-top: 18px;
     padding-bottom: 148px;
   }
-  .button-us {
+  .button-amazon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -177,7 +177,7 @@ body {
     border: none;
     cursor: pointer;
   }
-  .button-name-us {
+  .button-amazon-name {
     font-family: var(--main-font);
     font-weight: 500;
     font-size: 16px;
@@ -186,8 +186,15 @@ body {
     text-align: center;
     padding-right: 21px;
   }
-  .button-us-icon {
+  .button-amazon-icon {
     fill: var(--bacground-second-color);
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+  }
+  .button-amazon:hover .button-amazon-icon,
+  .button-amazon:hover .button-amazon-icon {
+    width: 115px;
   }
 }
 
@@ -229,7 +236,7 @@ body {
     padding-top: 14px;
     padding-bottom: 31px;
   }
-  .button-us {
+  .button-amazon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -239,9 +246,11 @@ body {
     border-radius: 56.1518px;
     border: none;
     cursor: pointer;
+  }
+  .btn-us {
     margin: 0 auto;
   }
-  .button-name-us {
+  .button-amazon-name {
     font-family: var(--main-font);
     font-weight: 500;
     font-size: 16px;
@@ -250,7 +259,7 @@ body {
     text-align: center;
     padding-right: 21px;
   }
-  .button-us-icon {
+  .button-amazon-icon {
     fill: var(--bacground-second-color);
   }
 }
@@ -700,26 +709,8 @@ body {
   .wrap-field {
     margin-top: 8px;
   }
-  .contact-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    width: 190px;
-    height: 57px;
-    margin-top: 26px;
-    background: var(--icon-color);
-    border-radius: 56.1518px;
-    border: none;
+  .btn-contact {
     margin-left: 82px;
-  }
-  .contact-button-name {
-    font-family: var(--main-font);
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.57;
-    color: var(--bacground-second-color);
-    padding-right: 11px;
   }
   .address-contact-list {
     padding: 46px 43px;
@@ -854,6 +845,12 @@ body {
     fill: var(--bacground-second-color);
     background: var(--icon-color);
     border-radius: 5px;
+    transition: fill 1000ms cubic-bezier(0.4, 0, 0.2, 1), background 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .footer-social-likon:hover,
+  .footer-social-likon:focus {
+    background-color: var(--bacgraund-color);
+    fill: var(--icon-color);
   }
   .footer-social-likon:first-child {
     margin-left: 5px;
@@ -894,8 +891,8 @@ body {
     align-items: center;
   }
   .contact-form {
+    max-width: 1200px;
     display: flex;
-    width: 1157px;
   }
   .contact-title {
     font-family: var(--main-font);
@@ -972,26 +969,18 @@ body {
     flex-wrap: wrap;
     padding-left: 28px;
   }
-  .contact-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 190px;
-    height: 57px;
-    background: var(--icon-color);
-    border-radius: 56.1518px;
-    border: none;
-    cursor: pointer;
+  .button-amazon {
     margin-top: 31px;
+    margin-bottom: 37px;
   }
-  .contact-button-name {
-    font-family: var(--main-font);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.56;
-    color: var(--bacground-second-color);
-    text-align: center;
-    padding-right: 21px;
+  .button-amazon-icon {
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+  }
+  .button-amazon:hover .button-amazon-icon,
+  .button-amazon:hover .button-amazon-icon {
+    width: 115px;
   }
   .location-descr-title {
     font-family: var(--secondary-font);
@@ -1058,8 +1047,13 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-top: 116px;
+    justify-content: center;
+    padding-top: 37px;
     padding-bottom: 38px;
+  }
+  .footer-list {
+    width: 100%;
+    border-top: 2px solid #ECECEC;
   }
   .footer-icon-wrapper {
     display: flex;
@@ -1113,9 +1107,15 @@ body {
     fill: var(--bacground-second-color);
     background: var(--icon-color);
     border-radius: 5px;
+    transition: fill 1000ms cubic-bezier(0.4, 0, 0.2, 1), background 1000ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .footer-social-likon:not(:first-child) {
     margin-left: 5px;
+  }
+  .footer-social-likon:hover,
+  .footer-social-likon:focus {
+    background-color: var(--bacgraund-color);
+    fill: var(--icon-color);
   }
   .footer__icon-earth {
     fill: var(--icon-color);
