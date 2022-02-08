@@ -2,8 +2,7 @@
     .contact{
         display: flex;
         flex-direction: column;
-        height: 100%;
-        margin: 0 auto;      
+        height: 100%;   
         background-color: var(--bacgraund-color);    
         padding-bottom: 22px;
     }
@@ -340,15 +339,12 @@
         margin-bottom: 37px; 
     }
     .button-amazon-icon{
-        
-        transition-property: width;
-        transition-duration: 2s;
-        transition-timing-function: ease;
+        transition-duration: 0.7s;
         // transition-delay: 1s;
     }
     .button-amazon:hover .button-amazon-icon,
     .button-amazon:hover .button-amazon-icon{     
-     width: 115px;
+     transform: translateX(14px);
     }
     .location-descr-title{
         font-family: var(--secondary-font);

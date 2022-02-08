@@ -1,0 +1,100 @@
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+    .contact{
+      margin-top: 100px;
+    }
+     .controll-wrapper{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+      }
+      .controll-img-wrap{
+        min-width: 331px;
+      }
+      .controll-title1{
+          width: 345px;
+      }
+      .controll-title1, .controll-title2, .controll-title3{
+       font-family: var(----main-font);
+       font-weight: 700;
+       font-size: 34px;
+       line-height: 1.11;
+       text-transform: capitalize;
+       color: var(--title-color);
+       padding-top: 40px;
+       padding-bottom: 20px;
+      }
+     .controll-item1, .controll-item2, .controll-item3 {    
+       width: 341px;
+       font-family: var(--secondary-font);
+       font-weight: 500;
+       font-size: 16px;
+       line-height: 1.56;
+        color: var(--secondary-color);
+      padding-bottom: 60.7px;
+         }
+      
+         .controll-title2{
+       width: 390px;
+         }
+         .controll-title3{
+       width: 342px;
+         }
+   }
+   @media screen and (min-width: 1025px){
+   
+        .controll-wrapper{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+     }
+     .controll-descr1{
+       display: flex;
+       align-items: center;
+     }
+     .controll-descr2{
+       display: flex;
+       flex-direction: row-reverse;
+       align-items: center;
+       padding-top: 185px;
+     }
+     .controll-descr3{
+       display: flex;
+       align-items: center;
+       padding-top: 180px;
+     }
+     
+     .controll-title1, .controll-title2, .controll-title3{
+       font-family: var(----main-font);
+       font-weight: 700;
+       font-size: 36px;
+       line-height: 1.11;
+       letter-spacing: -1.7px;
+       text-transform: capitalize;
+       color: var(--title-color);
+       padding-bottom: 30px;
+     }
+     .controll-item1, .controll-item2, .controll-item3{
+       font-family: var(----main-font);
+       font-weight: 400;
+       font-size: 16px;
+       line-height: 1.375;  
+       color: var(--secondary-color);
+     }
+     .wrapper-controll1{
+       margin-left: 136px;
+       max-width: 367px;
+     }
+     .wrapper-controll2{
+       margin-right: 128px;
+       max-width: 422px;
+     }
+     .wrapper-controll3{
+       margin-left: 132px;
+       max-width: 414px;
+     }
+     .controll-title2{
+         width: 390px;
+         padding-top: 70px;
+     }
+    
+   }

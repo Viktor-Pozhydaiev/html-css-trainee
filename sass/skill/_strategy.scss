@@ -1,0 +1,104 @@
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+    .contact{
+      margin-top: 100px;
+    }
+     .strategy-wrapper{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+      }
+      .descr-img-wrap{
+        min-width: 331px;
+      }
+      .strategy-title1{
+          width: 345px;
+      }
+      .strategy-title1, .strategy-title2, .strategy-title3{
+       font-family: var(----main-font);
+       font-weight: 700;
+       font-size: 34px;
+       line-height: 1.11;
+       letter-spacing: -0.7px;
+       text-transform: capitalize;
+       color: var(--title-color);
+       padding-top: 40px;
+       padding-bottom: 20px;
+      }
+     .strategy-item1, .strategy-item2, .strategy-item3 {    
+       width: 341px;
+       font-family: var(--secondary-font);
+       font-weight: 500;
+       font-size: 16px;
+       line-height: 1.56;
+        color: var(--secondary-color);
+      padding-bottom: 60.7px;
+         }
+      
+         .strategy-title2{
+       width: 305px;
+         }
+         .strategy-title3{
+       width: 338px;
+         }
+   }
+   @media screen and (min-width: 1025px){
+   
+     .strategy-wrapper{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-top: 58px;
+     }
+     .strategy-descr1{
+       display: flex;
+       align-items: center;
+     }
+     .strategy-descr2{
+       display: flex;
+       flex-direction: row-reverse;
+       align-items: center;
+       padding-top: 180px;
+     }
+     .strategy-descr3{
+       display: flex;
+       align-items: center;
+       padding-top: 250px;
+     }
+     
+     .strategy-title1, .strategy-title2, .strategy-title3{
+       font-family: var(----main-font);
+       font-weight: 700;
+       font-size: 36px;
+       line-height: 1.11;
+       letter-spacing: -0.7px;
+       text-transform: capitalize;
+       color: var(--title-color);
+       padding-bottom: 30px;
+     }
+     .strategy-item1, .strategy-item2, .strategy-item3{
+       font-family: var(--secondary-font);
+       font-weight: 500;
+       font-size: 16px;
+       line-height: 1.56;    
+       color: var(--secondary-color);
+       letter-spacing: 0.6+px;
+     }
+     .strategy-wrap1{
+      margin-left: 135px;
+      max-width: 414px;
+     }
+     .strategy-wrap2{
+      margin-right: 86px;
+      max-width: 450px;
+     }
+     .strategy-wrap3{
+       margin-left: 135px;       
+      max-width: 422px;
+     }
+     .strategy-title1{
+         width: 389px;
+     }
+     .strategy-title3{
+     width: 386px;
+     }
+   }

@@ -1,0 +1,190 @@
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  .adverti-img{
+    width: 100%;
+  }
+ .contact{
+   margin-top: 100px;
+ }
+ .advertisement-descr{
+   width: 340px;
+   margin: 0 auto;
+ }
+ 
+ .adverti-title{
+  font-family: var(----main-font);
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.18;
+  text-transform: capitalize;
+  color: #2A2A2A;
+  padding-bottom: 18px;
+}
+.advertisement-item {
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.56;
+  color: var(--secondary-color);
+}
+ .list-before {
+  padding-left: 50px;
+  position: relative;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  text-transform: uppercase;
+  color: #28B7A3;
+}
+.list-before::before {
+  content: '';
+  position: absolute;
+  width: 27px;
+  left: 0px;
+  height: 0px;
+  top: 10px;
+  background-color: #28B7A3;
+  border: 1px solid #28B7A3;
+}
+  .description-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .card-descr1{
+     margin-top: 100px;
+  }
+   .descr-img-wrap{
+     min-width: 331px;
+   }
+   .descr-adverti1, .descr-adverti2, .descr-adverti3{
+    font-family: var(----main-font);
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.11;
+    letter-spacing: -0.7px;
+    text-transform: capitalize;
+    color: var(--title-color);
+    padding-top: 40px;
+    padding-bottom: 20px;
+   }
+  .adverti-item1, .adverti-item2, .adverti-item3{    
+    width: 331px;
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.56;
+     color: var(--secondary-color);
+   padding-bottom: 60.7px;
+      }
+   
+      .descr-adverti2{
+    width: 305px;
+      }
+      .descr-adverti3{
+    width: 338px;
+      }
+}
+@media screen and (min-width: 1025px){
+  .adverti-img{
+    width: 100%;
+  }
+  .advertisement-descr{
+    width: 415px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    left: 141px;
+    top: 585px;
+  }
+  .list-before {
+    padding-left: 50px;
+    position: relative;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #28B7A3;
+  }
+  .list-before::before {
+    content: '';
+    position: absolute;
+    width: 27px;
+    left: 0px;
+    height: 0px;
+    top: 10px;
+    background-color: #28B7A3;
+    border: 1px solid #28B7A3;
+  }
+  .adverti-title{
+    font-family: var(----main-font);
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 1.01;
+    text-transform: capitalize;
+    color: #2A2A2A;
+    padding-bottom: 18px;
+  }
+  .advertisement-item {
+    width: 221px;
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.56;
+    color: var(--secondary-color);
+}
+  .description-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-descr1{
+    display: flex;
+    align-items: center;
+  }
+  .card-descr2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-top: 180px;
+  }
+  .card-descr3{
+    display: flex;
+    align-items: center;
+    padding-top: 180px;
+  }
+  
+  .descr-adverti1, .descr-adverti2, .descr-adverti3{
+    font-family: var(----main-font);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: -0.7px;
+    text-transform: capitalize;
+    color: var(--title-color);
+    padding-bottom: 30px;
+  }
+  .adverti-item1, .adverti-item2, .adverti-item3{
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    line-height: 1.56;    
+    color: var(--secondary-color);
+  }
+  .wrap-adverti1{
+  margin-left: 136px;
+  max-width: 388px;
+  }
+  .wrap-adverti2{
+    margin-right: 113px;
+    max-width: 429px;
+  }
+  .wrap-adverti3{
+    margin-left: 136px;
+    max-width: 474px;
+
+  }
+}

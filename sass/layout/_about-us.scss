@@ -63,15 +63,13 @@
             padding-right: 21px; 
         }
     .button-amazon-icon{
-        fill: var(--bacground-second-color);        
-        transition-property: width;
-        transition-duration: 2s;
-        transition-timing-function: ease;
+        fill: var(--bacground-second-color);     
+        transition-duration: 0.7s;
         // transition-delay: 1s;
     }
     .button-amazon:hover .button-amazon-icon,
     .button-amazon:hover .button-amazon-icon{     
-     width: 115px;
+     transform: translateX(14px);
     }
 }
 @media screen and (min-width: 1025px) {
